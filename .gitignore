@@ -1,0 +1,21 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Generated figure exports
+figures/*.svg
+figures/*.pdf
+figures/*.png
+figures/*.tif
+figures/*.tiff
+
+# Large processed source-data tables supplied through Zenodo
+data/processed/al.csv
+data/processed/yol.csv
+
+# Local or superseded analyses
+data/processed/*.bak
+data/processed/old/
+data/processed/epoch50/
